@@ -34,9 +34,10 @@ p {
 
 /* Estilização das imagens */
 img {
-    display: block;
-    max-width: 80%;
-    margin: 10px auto;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Faz a imagem ocupar toda a largura do elemento pai */
+    max-width: 500px; /* Limita a largura máxima */
+    height: auto; /* Ajusta a altura proporcionalmente */
+    border: 2px solid #ccc; /* Adiciona borda à imagem */
+    display: block; /* Centraliza a imagem se combinado com margin */
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
 }
